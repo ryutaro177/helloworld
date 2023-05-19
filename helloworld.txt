@@ -2,3 +2,4 @@ Hello world!!
 add comment.
 - git add
 - git commit
+- git rm
