@@ -1,7 +1,29 @@
 Hello world!!
-add comment.
-- git add
-- git commit
-- git rm
-- git status
-- git diff
+  80 git version
+  81 git config --global user.name "ryutaro177"
+  82 git config --global user.email yoshida-ryu@macnica.co.jp
+  90 git init
+  104 git add helloworld.txt
+  108 git commit
+  110 git remote add origin https://github.com/ryutaro177/helloworld.git
+  111 git branch -M main
+  112 git push -u origin main
+  113 git status
+  118 git commit -v
+  119 git log
+  121 git add second.txt
+  127 git rm second.txt
+  130 git add .
+  145 git log --oneline
+  146 git log -n 3
+  147 git log --oneline -n 3
+  148 git log -p
+  149 git log -p helloworld.txt
+  154 git diff
+  157 git diff HEAD
+  161 git remote add origin https://github.com/ryutaro177/helloworld
+  162 git push origin main
+  166 git reset HEAD second.txt
+  168 git checkout second.txt
+  171 git rm --cached second.txt
+  178 his tory | grep git
